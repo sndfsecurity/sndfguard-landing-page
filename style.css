@@ -221,7 +221,8 @@ section {
 .hero {
     position: relative;
     height: 100vh;
-    background: url("./images/img1.webp") center/cover no-repeat;
+    background: url("./images/img1.webp") no-repeat center center;
+    background-size: cover;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -372,6 +373,10 @@ section {
     .hero {
         height: auto;
         padding: 110px 15px 60px;
+        
+        background-position: center top;
+        background-size: cover;
+ 
     }
 
     .hero-content {
@@ -414,6 +419,12 @@ section {
    SMALL MOBILE (480px ↓)
 ========================= */
 @media (max-width: 480px) {
+
+    .hero{
+    background-position: center top;
+    background-size: cover;
+
+    }
 
     .hero-content{
         padding-top: 180px;
