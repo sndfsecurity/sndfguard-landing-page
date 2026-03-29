@@ -136,6 +136,14 @@ section {
 
 
 @media (max-width: 1200px) {
+
+.logo-full {
+
+    font-size: 1.5rem;
+    margin-left: 20px;
+
+}
+
   .nav-menu {
     gap: 10px;
   }
