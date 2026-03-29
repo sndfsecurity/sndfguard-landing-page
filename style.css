@@ -140,12 +140,13 @@ section {
 .logo-full {
 
     font-size: 1.5rem;
-    margin-left: 20px;
+    margin-left: 10px;
 
 }
 
   .nav-menu {
     gap: 10px;
+    margin-left: 5px;
   }
 
   .nav-menu a {
