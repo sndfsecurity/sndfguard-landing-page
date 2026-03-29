@@ -97,7 +97,9 @@ section {
 .nav-links {
     display: flex;
     gap: 2rem;
-    gap: 30px;
+    gap: 20px;
+    flex-wrap: wrap;   
+    justify-content: flex-end;
 }
 
 .nav-links a {
@@ -107,7 +109,8 @@ section {
     font-size: 1.3rem;
     transition: color 0.3s;
     position: relative;
-     color: #1a1a1a;
+    color: #1a1a1a;
+     
     
 }
 
@@ -130,6 +133,12 @@ section {
     width: 100%;
 }
 
+
+@media (max-width: 1100px) {
+  .nav-menu a {
+    font-size: 14px;
+  }
+}
 
 /* ============================= */
 /* 📱 MOBILE (≤ 768px) */
