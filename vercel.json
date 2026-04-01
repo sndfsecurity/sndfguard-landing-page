@@ -1,9 +1,0 @@
-{
-  "redirects": [
-    {
-      "source": "https://sndfpunesecurity.in/:path*",
-      "destination": "https://www.sndfpunesecurity.in/:path*",
-      "permanent": true
-    }
-  ]
-}
