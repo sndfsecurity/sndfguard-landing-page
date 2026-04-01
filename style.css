@@ -262,7 +262,7 @@ section {
     background-repeat: no-repeat;
     background-size: cover;
     /* Try different positions */
-    background-position: center 40%; /* or 50%, 60% depending on where faces are */
+    background-position: center 50%; /* or 50%, 60% depending on where faces are */
     display: flex;
     align-items: center;
     justify-content: center;
