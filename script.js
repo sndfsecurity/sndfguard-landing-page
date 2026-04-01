@@ -23,35 +23,3 @@ window.addEventListener('scroll', () => {
 });
 
 
-//formsubmit
-const form = document.getElementById('contactForm');
-const successMessage = document.getElementById('successMessage');
-
-if (form) {
-    form.addEventListener('submit', function(e) {
-        e.preventDefault();
-        
-        const name = document.getElementById('name').value;
-        const phone = document.getElementById('phone').value;
-        const service = document.getElementById('service').value;
-        const location = document.getElementById('city').value;
-        
-        if (name && phone && service && location && phone.length === 10) {
-            // Show success message
-            successMessage.style.display = 'block';
-            
-            // Reset form
-            form.reset();
-            
-            // Hide success message after 5 seconds
-            setTimeout(() => {
-                successMessage.style.display = 'none';
-            }, 5000);
-            
-            // Optional: Submit to formsubmit.co
-            // form.submit();
-        } else {
-            alert('Please fill all required fields correctly. Mobile number must be 10 digits.');
-        }
-    });
-}
