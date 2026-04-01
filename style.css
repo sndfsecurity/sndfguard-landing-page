@@ -256,24 +256,22 @@ section {
     padding: 0 20px;
     animation: zoomBg 20s ease-in-out infinite alternate; */
 
-    position: relative;
+   position: relative;
     height: 100vh;
-
     background-image: url("./images/img1.webp");
     background-repeat: no-repeat;
     background-size: cover;
-
-    /* 🔥 MAIN FIX */
-    background-position: center 30%;
-
+    /* Try different positions */
+    background-position: center 40%; /* or 50%, 60% depending on where faces are */
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
-
     padding: 0 20px;
    
 }
+
+
 
 /* DARK OVERLAY */
 .hero-overlay {
