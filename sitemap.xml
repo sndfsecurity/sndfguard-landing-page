@@ -3,22 +3,28 @@
 
   <url>
     <loc>https://sndfpunesecurity.in/</loc>
-    <priority>1.0</priority>
+    <lastmod>2026-04-02</lastmod>
+    <priority>1.00</priority>
   </url>
 
   <url>
-    <loc>https://sndfpunesecurity.in/services</loc>
-    <priority>0.8</priority>
+    <loc>https://sndfpunesecurity.in/#services</loc>
+    <priority>0.80</priority>
   </url>
 
   <url>
-    <loc>https://sndfpunesecurity.in/about</loc>
-    <priority>0.7</priority>
+    <loc>https://sndfpunesecurity.in/#why</loc>
+    <priority>0.80</priority>
   </url>
 
   <url>
-    <loc>https://sndfpunesecurity.in/contact</loc>
-    <priority>0.7</priority>
+    <loc>https://sndfpunesecurity.in/#expertise</loc>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://sndfpunesecurity.in/#contact</loc>
+    <priority>0.80</priority>
   </url>
 
 </urlset>
