@@ -258,19 +258,20 @@ section {
 
     position: relative;
     height: 100vh;
-    background: url("./images/img1.webp") no-repeat;
+
+    background-image: url("./images/img1.webp");
+    background-repeat: no-repeat;
     background-size: cover;
 
-    /* 🔥 CHANGE THIS */
-    background-position: center 15%; 
+    /* 🔥 MAIN FIX */
+    background-position: center 30%;
 
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
-    padding: 0 20px;
 
-    animation: zoomBg 20s ease-in-out infinite alternate;
+    padding: 0 20px;
    
 }
 
