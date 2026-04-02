@@ -1009,7 +1009,7 @@ section {
 .form-group input:focus,
 .form-group textarea:focus,
 .form-group select:focus {
-  border-color: #f39c12;
+  border-color: #6a4304;
   outline: none;
 }
 
