@@ -923,7 +923,7 @@ section {
 /* ===== Strengths Section ===== */
 .strengths-section {
   background: linear-gradient(135deg, #0a1f33, #071a2c);
-  padding: 80px 20px;
+  padding: 60px 20px;
   color: #fff;
   text-align: center;
   position: relative;
@@ -1566,7 +1566,7 @@ button:hover {
 ========================= */
 .testimonials-section {
     background: linear-gradient(135deg, #0a1f33, #071a2c);
-    padding: 100px 20px;
+    padding: 70px 20px;
     position: relative;
     overflow: hidden;
 }
