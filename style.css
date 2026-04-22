@@ -1452,6 +1452,12 @@ button:hover {
     text-align: center;
 }
 
+.footer-brand{
+    text-align: center;
+    font-size: 14px;
+}
+
+
 .footer-info a {
     color: #f4a21e;
     text-decoration: none;
@@ -1463,7 +1469,8 @@ button:hover {
     text-decoration: underline;
 }
 
-.footer-info strong {
+.footer-info strong,
+.footer-brand strong {
     color: #f4a21e;
 }
 
