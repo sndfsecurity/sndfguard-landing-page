@@ -611,14 +611,18 @@ document
 
         else {
 
-            alert("Failed to submit enquiry");
+             const errorMessage =
+                    await response.text();
+
+                alert(errorMessage);
         }
 
     } catch(error) {
 
         console.log(error);
 
-        alert("Something went wrong");
+        alert("Something went wrong. Please try again later.");
+
     }
 
 });
